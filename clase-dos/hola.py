@@ -9,3 +9,4 @@ print(edad,eshumano,nivel_de_poder)
 numero_1 = 1
 numero_2 = 2
 print(numero_1 + numero_2)
+print("hola mama")
