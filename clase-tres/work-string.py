@@ -83,3 +83,31 @@ print(lista)
 listaAnime = ["dbz","caballerosDelZodiaco","Sailor moon"]
 listaAnime[2] = "naruto"
 print(listaAnime)
+
+#lista reverse
+lista7 = ['colocolo','udechile','cato',]
+lista7.reverse()
+print(lista7) 
+
+#extend()
+lista8 = [1, 2, 3]
+lista9 = [4, 5, 6]
+lista8.extend(lista9)
+print(lista8) 
+
+lista3 = ['colocolo', 'udechile', 'ucatolica']
+lista4 = ['rangers', 'audax', 'huachipato']
+lista3.extend(lista4)
+print(lista3) 
+
+#append
+lista5 = ['colo','uchile','cato']
+lista5.append('audax')
+print(lista5) 
+
+#nueva tupla
+tupla1 = (1, 2, 3)
+tupla2 = (4, 5, 6)
+nueva_tupla = tupla1 + tupla2
+print(nueva_tupla)
+
