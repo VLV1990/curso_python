@@ -111,3 +111,154 @@ tupla2 = (4, 5, 6)
 nueva_tupla = tupla1 + tupla2
 print(nueva_tupla)
 
+
+#lista vacia
+empty_dict_2 = dict()
+print(empty_dict_2)
+full_dict = dict(
+    genero = "M",
+    nacionalidad = "E"
+)
+print(full_dict)
+
+empleado = {
+    "name" : "valeria",
+    "apellido" : "roso",
+    "edad" : 18,
+    "rut" : "11.111.111-1"
+}
+
+for variablex in empleado.values():
+    print(variablex)
+
+empleado2 = {
+    "name" : "martin",
+    "apellido" : "hernandez",
+    "edad" : 88,
+    "rut" : "11.111.111-7"
+}
+
+for variabley in empleado2.values():
+    print(variabley)
+
+print(empleado)
+for variable1 in empleado.values():
+    print(variable1)
+
+
+
+##for variable1 in empleado.value():
+   ## print(variable1)
+
+print(empleado2)
+for a,b in empleado2.items():
+    print(a,b)
+
+print("====== Trabajando con condicionales =====")
+
+edad = 60
+if edad > 50:
+    print("hola don")
+    print("hola dese adentro del if")
+
+print("aca continua el codigo")
+
+# si la temperatura es alta o no
+temperatura = 29
+if temperatura >= 37:
+    print("WARNING!! alerta de temperatura alta")
+else:
+    print("la temperatura aun es normal")
+
+temperatura = 5
+pais = 'chile'
+if temperatura <10:
+    if pais == "chile":
+        print('cccc')
+    else:
+        print('zzz')
+else:
+    if pais == 'chile':
+        print('111')
+    else:
+        print('222')
+
+if temperatura <10:
+    print("es altamente probable que nieve")
+elif temperatura >=10 and temperatura <=20:
+    print("es medianamente probable que nieva")
+else:
+    print("no hay posibilidad de nieve")
+
+#escriba un programa que permita adivinar un personaje de marvel en base a estas 3 preguntas:
+#¿ puede volar? 
+#¿ Es humano? 
+#¿ tiene mascara? 
+print("====== ADIVINA EL PERSONAJE/ADIVIAN EL PERSONAJE =====")
+
+puede_volar = False
+tiene_mascara = True
+es_humano = False
+
+if puede_volar ==True:
+    if tiene_mascara == True:
+        if es_humano == False:
+            print("el vision")
+
+if puede_volar ==True:
+    if tiene_mascara == True:
+        if es_humano == True:
+            print("es iron man")
+
+if puede_volar == True:
+    if tiene_mascara == False:
+        if es_humano == False:
+            print("el superman")
+
+if puede_volar == False:
+    if tiene_mascara == False:
+        if es_humano == False:
+            print("el jack sparrow")
+
+if puede_volar == False:
+    if tiene_mascara == True:
+        if es_humano == False:
+            print("el wakanda")
+
+
+
+#trabajando con while
+#mientras se cumpla la condicion, ejecuta los siguientes codigo
+
+#   while condicion:
+# 
+
+print ("================ trabajando con ciclios: los while")
+
+want_exit = 'n'
+while want_exit == 'n':
+    print("hola, como estas?")
+    want_exit = input("Quieres Salir S/N")
+print("fuera del while")
+
+print ("================ trabajando con ciclios: los while")
+print ("================ trabajando con ciclios: los while")
+print ("================ trabajando con ciclios: los while")
+#break, nos permite romper un ciclo 
+
+want_exit = 'n'
+num_questions = 0
+while want_exit == 'n':
+    print("hola como estas?")
+    want_exit = input("Quieres salir S/N")
+    num_questions += 1
+    if num_questions == 4:
+        print("Alcansaste el maximo permitido")
+        break
+print("se acabo el while")
+
+
+
+
+
+ 
