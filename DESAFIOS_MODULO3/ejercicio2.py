@@ -1,2 +1,3 @@
-saludo = 'hola mundo'
-print(saludo)
+cadena = 'hola mundo'
+print(cadena)
+
