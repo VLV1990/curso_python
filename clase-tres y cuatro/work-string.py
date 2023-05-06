@@ -254,7 +254,7 @@ while want_exit == 'n':
     num_questions += 1
     if num_questions == 4:
         print("Alcansaste el maximo permitido")
-        break
+        break   
 print("se acabo el while")
 
 

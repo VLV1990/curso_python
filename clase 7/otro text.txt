@@ -1,0 +1,9 @@
+si tienes algo como esto, el pensamiento es así:
+
+if (si cumple, hago lo que me dices. Si no cumple, me muevo a la siguiente)
+elif (si cumple, entro, sino, me voy descartado)
+elif (si cumple, entro y hago lo que dices, si no cumplo me descartas)
+else (si todo lo anterior se fue descartado, hago lo que me indicas aquí)
+en el VScode le puedes poner el botón play y anda todo
+tienes que dejarlo cargar un poquito y te muestra
+se demora
