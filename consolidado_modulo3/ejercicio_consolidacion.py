@@ -22,12 +22,12 @@ print('II) nombres completos: ')
 imprimir_nombres()
 print('\n--------------------------------------------------\n')
 print('III) lista de cientificos: ')
-for cientifico in lista_cientificos:
-    print(cientifico)
+for elemento in lista_cientificos:
+    print(elemento)
 print('\n--------------------------------------------------\n')
 print('IV) lista de otros: ')
 
-for nombres_restantes in otros_list:
-    print(nombres_restantes)
+for elementos in otros_list:
+    print(elementos)
 
 
